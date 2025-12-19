@@ -24,3 +24,9 @@ This project is an end-to-end **ELT (Extract, Load, Transform)** pipeline design
 │   │   └── marts/         # Final Fact/Dimension tables (Star Schema)
 ├── src/                   # Python extraction scripts
 └── README.md
+
+## 🚀 Current Progress
+- [x] **Architecture Design:** Designed Fact vs. Dimension tables for performance tracking.
+- [x] **Data Warehouse:** Configured Snowflake databases, schemas, and warehouses.
+- [ ] **Ingestion:** Building Python scripts to handle API pagination and error handling.
+- [ ] **Transformation:** Developing `fct_performance` and `dim_providers` models in dbt.
