@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowflake_raw
+    database: ENTERPRISE_ANALYTICS_DB
+    schema: RAW_DATA
+    tables:
+      - name: RAW_PRODUCTS
+      - name: RAW_USERS
+      - name: RAW_CARTS
